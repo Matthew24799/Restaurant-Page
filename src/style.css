@@ -5,6 +5,7 @@ body {
 .content {
 display: flex;
 justify-content: center;
+align-items: center;
 }
 
 .headerDiv {
@@ -18,8 +19,11 @@ justify-content: center;
 } 
 
 img{
+    position: relative;
+    left: 45%;
     width: 250px;
     height: 250px;
+    margin-bottom: 10px;
 }
 
 
