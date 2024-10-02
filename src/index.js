@@ -1,4 +1,8 @@
 import "./style.css"
+const home = document.querySelector(".home")
+const menu = document.querySelector(".menu")
+const contact = document.querySelector(".contact")
+
 const header = document.getElementById("header");
 const content = document.getElementById("content");
 const headerDiv = document.createElement("div")
@@ -13,4 +17,7 @@ p.setAttribute("class", "p")
 
 header.appendChild(headerDiv)
 headerDiv.appendChild(headerText);
+headerDiv.appendChild(home)
+headerDiv.appendChild(menu);
+headerDiv.appendChild(contact)
 content.appendChild(p);
