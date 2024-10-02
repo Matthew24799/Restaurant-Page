@@ -1,8 +1,12 @@
 import "./style.css"
+import homeLogo from "./homePageLogo.jpeg"
+
+
 const home = document.querySelector(".home")
 const menu = document.querySelector(".menu")
 const contact = document.querySelector(".contact")
-
+const logo = document.createElement("img");
+logo.src = homeLogo;
 const header = document.getElementById("header");
 const content = document.getElementById("content");
 const headerDiv = document.createElement("div")
@@ -20,4 +24,5 @@ headerDiv.appendChild(headerText);
 headerDiv.appendChild(home)
 headerDiv.appendChild(menu);
 headerDiv.appendChild(contact)
+content.appendChild(logo);
 content.appendChild(p);
