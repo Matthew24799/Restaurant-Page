@@ -1,8 +1,9 @@
 console.log("HEY");
 const content = document.getElementById("content");
+const headerDiv = document.createElement("div")
+const header = document.createTextNode("MAC AND CHEESE RESAURANT");
+const p = document.createTextNode("we have been making mac n cheese for many generations we got a wide variety to choose from!")
 
-const header = document.createTextNode("MAC AND CHEESE BITCHES")
-const p = document.createTextNode("WELCOME to the mac and cheese restraunt!!! take a look around at our menu")
-
-content.appendChild(header);
+content.appendChild(headerDiv)
+headerDiv.appendChild(header);
 content.appendChild(p);
