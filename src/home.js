@@ -1,7 +1,7 @@
 import "./style.css"
 import homeLogo from "./homePageLogo.jpeg"
 
- function homePage() {
+export function homePage() {
 const home = document.querySelector(".home")
 const menu = document.querySelector(".menu")
 const contact = document.querySelector(".contact")
